@@ -1,0 +1,31 @@
+{
+  "name": "send-sns-from-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint handler.js",
+    "lint:fix": "eslint --fix handler.js",
+    "fmt": "prettier --write handler.js"
+  },
+  "author": "Capybara Translation",
+  "license": "MIT",
+  "devDependencies": {
+    "aws-sdk": "^2.622.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^1.19.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  }
+}

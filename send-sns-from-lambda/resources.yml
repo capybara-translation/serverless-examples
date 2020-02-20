@@ -1,0 +1,9 @@
+Resources:
+  MySnsTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      DisplayName: MySnsTopic
+      Subscription:
+        - Endpoint: ${self:custom.app_config.EMAIL}
+          Protocol: email
+      TopicName: MySnsTopic
